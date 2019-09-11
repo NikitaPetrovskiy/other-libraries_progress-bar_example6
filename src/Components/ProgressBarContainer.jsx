@@ -31,8 +31,7 @@ export class ProgressBarContainer extends React.Component{
     render() {
         return (
             <div>
-                <ProgressBar containerId="barContainer" barClassName="progressBar"
-                             percentage={this.state.percentage} />
+                <ProgressBar percentage={this.state.percentage} />
                 <button className="btn info" onClick={this.doProgressMore}>Больше</button>
                 <button className="btn warning" onClick={this.doProgressLess}>Меньше</button>
             </div>

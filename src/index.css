@@ -27,10 +27,8 @@ code {
 .warning {background-color: #ff9800;}
 .warning:hover {background: #e68a00;}
 
-#barContainer {
-  margin-bottom: 20px;
-}
 .nanobar {
+  margin-bottom: 20px;
   width: 100%;
   height: 4px;
   z-index: 9999;
